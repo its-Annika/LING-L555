@@ -1,4 +1,4 @@
 # LING-L555
 
-`YOUR NAME HERE`
+`Annika Shankwitz`
 
