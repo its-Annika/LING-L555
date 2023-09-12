@@ -5,7 +5,7 @@ originalText = sys.stdin.read()
 
 #removes the existing new line characters
 #because they aren't meaningful yet
-noNewLines = originalText.replace('\n', '')
+noNewLines = originalText.replace('\n', ' ')
 
 #finds the pattern '. ' 
 #and replaces it with '.\n'
