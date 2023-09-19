@@ -52,9 +52,6 @@ finalStringV2  = re.sub(r'\n+', '\n', finalString)
 #turns the lines into a list
 tokens = finalStringV2.split('\n')
 
-#finds the longest element for spacing reasons
-maxLen = len( max(tokens, key = len))
-
 #keeps track of the count
 count = 1
 
