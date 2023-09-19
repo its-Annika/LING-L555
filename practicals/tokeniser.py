@@ -6,7 +6,7 @@ sentences = sys.stdin.readlines()
 
 
 #outputs the header
-sys.stdout.write("ID\tLEMMA\tUPOS\tXPOS\tFLEATS\tHEAD\tDEPREL\tDEPS\tMISC")
+sys.stdout.write("ID\tLEMMA\tUPOS\tXPOS\tFEATS\tHEAD\tDEPREL\tDEPS\tMISC")
 
 #flips through the sentences
 for sentence in sentences:
