@@ -30,7 +30,8 @@ for sentence in sentences:
 			temp += character
 	
 	#corrects any duplicate \ns
-	temp2  = re.sub(r'\n+', '\n', temp)
+	#and removes leading and trailing \ns
+	temp2  = re.sub(r'\n+', '\n', temp).strip("\n")
 	
 	#list of words in the sentences
 	words = temp2.split("\n")
