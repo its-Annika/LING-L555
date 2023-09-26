@@ -43,32 +43,33 @@ for line in sys.stdin.readlines():
 	
 	while(i < len(form)):
 		
-		#first checks if three character squences are in the dict "sch"			
+		#first checks if three character sequences are in the dict: "sch"			
 		if i < (len(form)) -2 and  str(form[i]+ form[i+1] +form[i+2]) in transKey.keys():
 			newForm += transKey[str(form[i]+ form[i+1]+form[i+2])]
 			#adjusts i accordingly	
 			i += 2
 
-		#then if two character sequences are in the dict, dipthongs,...
+		#then if two character sequences are in the dict: dipthongs,...
 		elif i < (len(form))-1 and str(form[i] + form[i+1]) in transKey.keys():
 			newForm += transKey[str(form[i]+ form[i+1])]
 			#adjusts i accordingly
 			i += 1
 		
-		#if not, just take the single character
+		#if not
 		else:
-			#don't replace certain  double vowels
+			#don't replace certain double vowels
 			if i < (len(form))-2 and form[i] == form[i+1] and form[i] in "aeiourlmn":
 				newForm += transKey[form[i]]
 				i += 1
-
+			
+			#just replace single characters
 			elif form[i] in transKey.keys():
 				newForm += transKey[form[i]]
 	
 		#makes sure the loop moves for characters not in the dict	
 		i += 1	
 
-	#updates the misc. slop
+	#updates the misc. slot
 	if newForm == "":
 		newForm = "N/A"
 					
