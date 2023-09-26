@@ -41,7 +41,8 @@ for sentence in sentences:
 	
 	#for each word in the sentence, print out the ID, the word, and all the other things
 	for word in words:
-		sys.stdout.write(str(count) + "\t" + word + "\t" + "\t-\t-\t-\t-\t-\t-\t-\t-\t\n")
+			#print('%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (count, word.strip()))
+		sys.stdout.write(str(count) + "\t" +word.strip() + "\t_\t_\t_\t-\t_\t_\t_\t_\n")
 		count += 1
 
 	
