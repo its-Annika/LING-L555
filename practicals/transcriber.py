@@ -69,11 +69,8 @@ for line in sys.stdin.readlines():
 		#makes sure the loop moves for characters not in the dict	
 		i += 1	
 
-	#updates the misc. slot
-	if newForm == "":
-		newForm = "N/A"
-					
+				
 	row[9] = "IPA=" + newForm
 
-	#outpu
+	#output
 	sys.stdout.write("\t".join(row) + "\n")
