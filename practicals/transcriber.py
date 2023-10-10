@@ -26,7 +26,7 @@ for line in sys.stdin.readlines():
 	line = line.strip('\n')
     # if there is no tab character, skip the line
 	if '\t' not in line:
-		sys.stdout.write(line)
+		sys.stdout.write(line+"\n")
 		continue
     # make a list of the cells in the row
 	row = line.split('\t')
