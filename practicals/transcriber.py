@@ -20,12 +20,19 @@ key.close()
 
 import sys
 
+sentenceCount = 0
+
 for line in sys.stdin.readlines(): 
     # strip any excess newlines
 	line = line.strip('\n')
     # if there is no tab character, skip the line
 	if '\t' not in line:
-		sys.stdout.write(line + "\n")
+
+    #adds the sentence ID and new line characters
+		sys.stdout.write("\n")
+		sentenceCount += 1
+		sys.stdout.write("# sent_id = " + str(sentenceCount) + "\n")
+		sys.stdout.write("# text = " + line + "\n")
 		continue
     # make a list of the cells in the row
 	row = line.split('\t')
