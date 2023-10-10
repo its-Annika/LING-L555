@@ -8,11 +8,16 @@ sentences = sys.stdin.readlines()
 #outputs the header
 sys.stdout.write("ID\tLEMMA\tUPOS\tXPOS\tFEATS\tHEAD\tDEPREL\tDEPS\tMISC")
 
+sentenceCount = 1
+
 #flips through the sentences
 for sentence in sentences:
 	
 	#print the entire sentence
-	sys.stdout.write(sentence)
+	sys.stdout.write("\n")
+	sys.stdout.write("# sent_id = " + str(sentenceCount) + "\n")
+	sentenceCount +=1
+	sys.stdout.write("# text = " + sentence)
 	
 
 	#formats the sentence so that puctuation is wrapped in \ns
