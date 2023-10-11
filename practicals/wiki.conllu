@@ -1,0 +1,94 @@
+# sent_id = 1
+# text =  Amisch:Die Amische sinn Widderdaafer (Anabaptists) - sie nemme ihre Naame vum Jakob Ammann.
+1	Amisch	_	NOUN	_	-	_	_	_	IPA=aːmiːʃ
+2	:	_	PUNCT	_	-	_	_	_	IPA=
+3	Die	_	DET	_	-	_	_	_	IPA=diːeː
+4	Amische	_	NOUN	_	-	_	_	_	IPA=aːmiːʃeː
+5	sinn	_	AUX	_	-	_	_	_	IPA=siːnn
+6	Widderdaafer	_	ADJ	_	-	_	_	_	
+IPA=viːddeːʁdaːfeːʁ
+7	(	_	PUNCT	_	-	_	_	_	IPA=
+8	Anabaptists	_	NOUN	_	-	_	_	_	
+IPA=aːnaːbaːptiːsts
+9	)	_	PUNCT	_	-	_	_	_	IPA=
+10	-	_	PUNCT	_	-	_	_	_	IPA=
+11	sie	_	PRON	_	-	_	_	_	IPA=siːeː
+12	nemme	_	VERB	_	-	_	_	_	IPA=neːmeː
+13	ihre	_	DET	_	-	_	_	_	
+IPA=iːhʁeː
+14	Naame	_	NOUN	_	-	_	_	_	IPA=naːmeː
+15	vum	_	ADP	_	-	_	_	_	IPA=vuːm
+16	Jakob	_	PROPN	_	-	_	_	_	IPA=jaːkoːb
+17	Ammann	_	PROPN	_	-	_	_	_	IPA=aːmaːnn
+18	.	_	PUNCT	_	-	_	_	_	IPA=
+
+# sent_id = 2
+# text = Deel Leit meene's watt gaar ken Technology geyused unnich die Amische.
+1	Deel	_	DET	_	-	_	_	_	IPA=deːl
+2	Leit	_	NOUN	_	-	_	_	_	IPA=laɪt
+3	meene	_	NOUN	_	-	_	_	_	IPA=meːneː
+4	'	_	PUNCT	_	-	_	_	_	IPA=
+5	s	_	ADP	_	-	_	_	_	IPA=s
+6	watt	_	ADP	_	-	_	_	_	
+IPA=vaːtt
+7	gaar	_	DET	_	-	_	_	_	IPA=gaːʁ
+8	ken	_	DET	_	-	_	_	_	IPA=keːn
+9	Technology	_	NOUN	_	-	_	_	_	
+IPA=teːxnoːloːgyː
+10	geyused	_	VERB	_	-	_	_	_	IPA=geːyːuːseːd
+11	unnich	_	ADP	_	-	_	_	_	IPA=uːniːx
+12	die	_	DET	_	-	_	_	_	IPA=diːeː
+13	Amische	_	NOUN	_	-	_	_	_	IPA=aːmiːʃeː
+14	.	_	PUNCT	_	-	_	_	_	IPA=
+
+# sent_id = 3
+# text = Deel vunne diehn yuscht gans wennich modern Technology yuuse, awwer Annere sinn meh modern.
+1	Deel	_	DET	_	-	_	_	_	IPA=deːl
+2	vunne	_	PREP	_	-	_	_	_	IPA=vuːneː
+3	diehn	_	PRON	_	-	_	_	_	IPA=diːeːhn
+4	yuscht	_	VERB	_	-	_	_	_	IPA=yːuːʃt
+5	gans	_	ADJ	_	-	_	_	_	IPA=gaːns
+6	wennich	_	ADJ	_	-	_	_	_	IPA=veːniːx
+7	modern	_	ADJ	_	-	_	_	_	IPA=moːdeːʁn
+8	Technology	_	NOUN	_	-	_	_	_	
+IPA=teːxnoːloːgyː
+9	yuuse	_	VERB	_	-	_	_	_	IPA=yːuːseː
+10	,	_	PUNCT	_	-	_	_	_	IPA=
+11	awwer	_	DET	_	-	_	_	_	
+IPA=aːvveːʁ
+12	Annere	_	NOUN	_	-	_	_	_	
+IPA=aːneːʁeː
+13	sinn	_	AUX	_	-	_	_	_	IPA=siːnn
+14	meh	_	ADV	_	-	_	_	_	IPA=meːh
+15	modern	_	ADJ	_	-	_	_	_	IPA=moːdeːʁn
+16	.	_	PUNCT	_	-	_	_	_	IPA=
+
+# sent_id = 4
+# text = Deel Amische G'meene sin nidderer (meh conservative) as annere.
+1	Deel	_	DET	_	-	_	_	_	IPA=deːl
+2	Amische	_	NOUN	_	-	_	_	_	IPA=aːmiːʃeː
+3	G	_	NOUN	_	-	_	_	_	IPA=g
+4	'	_	PUNCT	_	-	_	_	_	IPA=
+5	meene	_	VERB	_	-	_	_	_	IPA=meːneː
+6	sin	_	AUX	_	-	_	_	_	IPA=siːn
+7	nidderer	_	ADJ	_	-	_	_	_	
+IPA=niːddeːʁeːʁ
+8	(	_	PUNCT	_	-	_	_	_	IPA=
+9	meh	_	ADP	_	-	_	_	_	
+IPA=meːh
+10	conservative	_	ADJ	_	-	_	_	_	
+IPA=coːnseːʁvaːtiːveː
+11	)	_	PUNCT	_	-	_	_	_	IPA=
+12	as	_	ADP	_	-	_	_	_	IPA=aːs
+13	annere	_	NOUN	_	-	_	_	_	IPA=aːneːʁeː
+14	.	_	PUNCT	_	-	_	_	_	IPA=
+
+# sent_id = 5
+# text = Alli Gmee hot ihre eegne Addning.
+1	Alli	_	DET	_	-	_	_	_	IPA=aːliː
+2	Gmee	_	NOUN	_	-	_	_	_	IPA=gmeːeː
+3	hot	_	VERB	_	-	_	_	_	IPA=hoːt
+4	ihre	_	DET	_	-	_	_	_	IPA=iːhʁeː
+5	eegne	_	ADJ	_	-	_	_	_	IPA=eːgneː
+6	Addning	_	NOUN	_	-	_	_	_	IPA=aːddniːŋ
+7	.	_	PUNCT	_	-	_	_	_	IPA=
