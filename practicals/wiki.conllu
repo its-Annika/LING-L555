@@ -44,7 +44,8 @@ IPA=teːxnoːloːgyː
 # sent_id = 3
 # text = Deel vunne diehn yuscht gans wennich modern Technology yuuse, awwer Annere sinn meh modern.
 1	Deel	_	DET	_	-	_	_	_	IPA=deːl
-2	vunne	_	PREP	_	-	_	_	_	IPA=vuːneː
+2	vunne	_	ADP	_	-	_	_	_	
+IPA=vuːneː
 3	diehn	_	PRON	_	-	_	_	_	IPA=diːeːhn
 4	yuscht	_	VERB	_	-	_	_	_	IPA=yːuːʃt
 5	gans	_	ADJ	_	-	_	_	_	IPA=gaːns
