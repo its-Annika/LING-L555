@@ -39,6 +39,11 @@ for line in data:
 #output time
 
 sys.stdout.write("# P \t count \t tag \t form\n")
+
+for tag in tagFrequency.keys():
+	sys.stdout.write('%.2f' % (tagFrequency[tag]/tokenCounter))
+	sys.stdout.write("\t" + str(tagFrequency[tag]) + "\t" + tag + "\t_\n")
+
 for word in matrix:
 	
 	tags = []
