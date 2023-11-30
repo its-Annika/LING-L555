@@ -1,0 +1,3 @@
+cow,1
+pig,2
+goat,3
