@@ -234,8 +234,7 @@ lexical neighborhoods? Journal of Memory and Language, 44:568–591.
 Chomsky, N. and Halle, M. (1965). Some controversial questions in phonological
 theory. Journal of Linguistics, 1(2):97–138.
 
-Hammond, M. (1999). The Phonology of English, chapter Chapter 3. English Sylla-
-bles: Margins and Consonants. Oxford University Press.
+Hammond, M. (1999). The Phonology of English, chapter Chapter 3. English Syllables: Margins and Consonants. Oxford University Press.
 
 Hammond, M. (2004). Gradience, phonotactics and the lexicon in english phonology.
 International Journal of English Studies (IJES), 4.
