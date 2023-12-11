@@ -131,10 +131,10 @@ The following modules are required to run the program.
 
 ## Running the Program
 
-The program is currently set up to run a mini-demo. Text files used in this demo are indicated by the 'mini' keyword. To exit demo-mode, remove 'mini' from the file names in gatherScores .py, wordGenerator .py, makeVectors. py, and linearRegressionModel .py. 
+The program is currently set up to run a mini-demo. Text files used in this demo are indicated by the 'mini' keyword. To exit demo-mode, remove 'mini' from the file names in gatherScores.py, wordGenerator.py, makeVectors.py, and linearRegressionModel.py. 
 
 ##### Step 1: Generate Words
-Use wordGenerator. py to generate words from three categories: English/valid words, nonce words, and invalid words. Change the number of generated words by altering the integer arguments in the makeData() function call at the end of the file. The user must approve every word in order to manually filter out inappropriate language or multisyllabic words which weren't successfully filtered out earlier on. This program writes to allWords.txt/allWordMini.txt within the words folder. An example of this process is as follows:
+Use wordGenerator.py to generate words from three categories: English/valid words, nonce words, and invalid words. Change the number of generated words by altering the integer arguments in the makeData() function call at the end of the file. The user must approve every word in order to manually filter out inappropriate language or multisyllabic words which weren't successfully filtered out earlier on. This program writes to allWords.txt/allWordMini.txt within the words folder. An example of this process is as follows:
 
     tights
     This word is...
@@ -149,7 +149,7 @@ The program then waits for the user to either press enter, indicating that the w
 - Place the testing data into testingWords.txt/minitestingWords.txt within the words folder, one word per line.
 
 ##### Step 3: Train the Linear Regression Model
-Run vectorMaker. py located within the LinearRegression folder. Make sure the **train() function call** at the end of the file is **uncommented**. For each word in trainingWords.txt/minitrainingWords.txt, word,feature vector,score will be written to trainingVectors.txt/minitrainingVectors.txt within the LinearRegression folder. 
+Run vectorMaker.py located within the LinearRegression folder. Make sure the **train() function call** at the end of the file is **uncommented**. For each word in trainingWords.txt/minitrainingWords.txt, word,feature vector,score will be written to trainingVectors.txt/minitrainingVectors.txt within the LinearRegression folder. 
 
 When creating vectors, the user will be required to check the IPA form created for each inputted word. This is to prevent any repairs (usually vowel epenthesis) made by [epitran][epitran] to illformed English words. It will look as follows:
 
@@ -170,7 +170,7 @@ where the first line is the orthographic form, the second line is the IPA transc
 
 
 ##### Step 4: Gather Scores
-Run gatherScores. py. This file calculates scores from each model for words in testingWords.txt/minitestingWords.txt. The trigram and neighborhood scores will be gathered automatically, but once again, the linear regression model will require hand checking of IPA forms. Scores for each model are written to their corresponding scores file within the modelScores folder. Before running this file, make sure the **train() function call in vectorMaker .py** is **commented out**.
+Run gatherScores.py. This file calculates scores from each model for words in testingWords.txt/minitestingWords.txt. The trigram and neighborhood scores will be gathered automatically, but once again, the linear regression model will require hand checking of IPA forms. Scores for each model are written to their corresponding scores file within the modelScores folder. Before running this file, make sure the **train() function call in vectorMaker.py** is **commented out**.
 ***
 ## Comprehensive Description of the Program
 
@@ -192,9 +192,9 @@ This folder contains invalid English syllable constituents.
 
 #### tools Folder
 This folder contains tools for processing data.
-- brownProcesser. py : Finds monosyllabic types in the [Brown Corpus][brown], and writes them to monosyllabicBrownTypes.txt. The top 2,000 of these types are written to topBrownTypes.txt.
-- miscTools. py : Contains various functions used to create and process IPA forms. 
-- writeOxfordDict .py : Finds monosyllabic words from the [Oxford English Dictionary][oxford] that aren't in the [Brown Corpus][brown] and writes them to monosyllabicOxfordWords.txt. 
+- brownProcesser.py : Finds monosyllabic types in the [Brown Corpus][brown], and writes them to monosyllabicBrownTypes.txt. The top 2,000 of these types are written to topBrownTypes.txt.
+- miscTools.py : Contains various functions used to create and process IPA forms. 
+- writeOxfordDict.py : Finds monosyllabic words from the [Oxford English Dictionary][oxford] that aren't in the [Brown Corpus][brown] and writes them to monosyllabicOxfordWords.txt. 
 
 #### words Folder
 This folder contains the training and testing data. 
@@ -210,20 +210,20 @@ This folder contains scores given to the testing data by each model.
 
 #### LinearRegression Folder
 This folder contains the linear regression model. 
--   linearRegressionModel. py : contains the model itself and the function which determines scores of inputted words. 
+-   linearRegressionModel.py : contains the model itself and the function which determines scores of inputted words. 
 -   vectorMaker. py: contains the function which extracts features from imputed words, and the function which creates training vectors.
 -   trainingVectors.txt : stores vectors created from training data to train the linear regression model. 
 
-#### neighborhoodModel. py
+#### neighborhoodModel.py
 This file contains the neighborhood model, which calculates neighborhood density scores for imputed forms. 
 
-#### trigramModel. py
+#### trigramModel.py
 This file contains the trigram model, and the function which calculates trigram probabilities for imputed forms. 
 
-#### wordGenerator. py
+#### wordGenerator.py
 This file generates words to be used as training and testing data. Words are written to allWords.txt within the words folder.
 
-#### gatherScores . py
+#### gatherScores.py
 This file gets the trigram probabilities, neighborhood density scores, and linear regression scores for the testing data. Scores are written to the modelScores folder.
 ***
 ## References
