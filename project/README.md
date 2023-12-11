@@ -1,3 +1,0 @@
-# Project
-
-`PROJECT DESCRIPTION HERE`
